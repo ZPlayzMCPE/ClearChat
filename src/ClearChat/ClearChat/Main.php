@@ -28,13 +28,13 @@ class Main extends PluginBase implements Listener{
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
 		if(strtolower($command->getName()) == "cc"){
 			$senderName = $sender->getName();
-			$this->getServer()->broadcastMessage(" ");
-			$this->getServer()->broadcastMessage(" ");
-			$this->getServer()->broadcastMessage(" ");
-			$this->getServer()->broadcastMessage(" ");
-			$this->getServer()->broadcastMessage(" ");
-			$this->getServer()->broadcastMessage(" ");
-			$this->getServer()->broadcastMessage(" ");
+			$this->getServer()->broadcastMessage("Chat Being cleared");
+			$this->getServer()->broadcastMessage("this can lead to many things");
+			$this->getServer()->broadcastMessage("Such as:");
+			$this->getServer()->broadcastMessage("Advertising");
+			$this->getServer()->broadcastMessage("Spamming");
+			$this->getServer()->broadcastMessage("Swearing");
+			$this->getServer()->broadcastMessage("");
 			$this->getServer()->broadcastMessage(" ");
 			$this->getServer()->broadcastMessage(" ");
 			$this->getServer()->broadcastMessage(" ");
