@@ -2,10 +2,11 @@ name: ClearChat
 main: ClearChat\ClearChat\Main
 version: 1.1
 api: [3.0.0-ALPHA11]
+description: Clear chat, based of VMPE.
 commands:
     cc:
-     description: Clear Chat
-     permission: clearchat.clear
- permissions:
+        description: Clears chat publicly
+        permission: chatclear.clear
+permissions:
   clearchat.clear:
     default: op
