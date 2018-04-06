@@ -1,9 +1,7 @@
 name: ClearChat
-main: ClearChat\ClearChat
-version: 1.0-Alpha
-api: 
-- 2.0.0
-- 1.13.0
+main: ClearChat\Main
+version: 1.1
+api: [3.0.0-ALPHA11]
 commands:
     cc:
      description: Clear Chat #§eXxD7omGamer
