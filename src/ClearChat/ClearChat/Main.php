@@ -1,7 +1,5 @@
 <?php
-
 namespace ClearChat\ClearChat;
-
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\command\Command;
@@ -18,7 +16,6 @@ use pocketmine\math\Vector3;
 use pocketmine\utils\TextFormat as Color;
 use pocketmine\item\Item;
 use pocketmine\event\player\PlayerMoveEvent;
-
 class Main extends PluginBase implements Listener{
 	
 		public function onEnable(){
@@ -170,5 +167,7 @@ class Main extends PluginBase implements Listener{
 			$this->getServer()->broadcastMessage("§aChat has been cleared by §b$senderName");
 			return true;
 		}
+	}
+	return true;
 	}
 }
