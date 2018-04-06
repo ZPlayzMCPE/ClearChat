@@ -167,8 +167,8 @@ class Main extends PluginBase implements Listener{
 			$this->getServer()->broadcastMessage("§6Clearing Chat.");
 			$this->getServer()->broadcastMessage("§aChat has been cleared by §b$senderName");
 			return true;
-		}
+		    }
 	}
 	return true;
-	}
+}	}
 }
