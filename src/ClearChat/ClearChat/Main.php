@@ -1,6 +1,6 @@
 <?php
 
-namespace ClearChat1b;
+namespace ClearChat\ClearChat;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -19,7 +19,7 @@ use pocketmine\utils\TextFormat as Color;
 use pocketmine\item\Item;
 use pocketmine\event\player\PlayerMoveEvent;
 
-class ClearChat1b extends PluginBase implements Listener{
+class Main extends PluginBase implements Listener{
 	
 		public function onEnable(){
 			$this->getServer()->getPluginManager()->registerEvents($this, $this);
