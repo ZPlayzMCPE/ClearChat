@@ -65,4 +65,4 @@ class ClearChat1b extends PluginBase implements Listener{
 			$this->getServer()->broadcastMessage("§aClear Chat has been cleared by  §b$senderName");
 		}
 	}
-}ĺ
+}
