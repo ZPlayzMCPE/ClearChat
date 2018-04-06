@@ -23,8 +23,9 @@ class Main extends PluginBase implements Listener{
 	}
 	
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
-		if(strtolower($command->getName()) == "cc"){
-		    if($sender->hasPermission("clearchat.clear")) {
+	    if(strtolower($command->getName()) == "cc"){
+	                  if ($sender instanceof Player) {
+		    	      if($sender->hasPermission("clearchat.clear")){
 			$senderName = $sender->getName();
 			$this->getServer()->broadcastMessage("§aChat Being cleared");
 			$this->getServer()->broadcastMessage("§athis can lead to many things");
