@@ -9,4 +9,4 @@ commands:
         permission: chatclear.clear
 permissions:
   clearchat.clear:
-    default: op
+    default: false
