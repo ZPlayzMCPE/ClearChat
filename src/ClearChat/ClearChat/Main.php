@@ -25,7 +25,7 @@ class Main extends PluginBase implements Listener{
 			$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 	
-	public function onCommand(CommandSender $sender, Command $command, $label, array $args){
+	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
 		if(strtolower($command->getName()) == "cc"){
 			$senderName = $sender->getName();
 			$this->getServer()->broadcastMessage(" ");
@@ -63,6 +63,7 @@ class Main extends PluginBase implements Listener{
 			$this->getServer()->broadcastMessage(" ");
 			$this->getServer()->broadcastMessage(" ");
 			$this->getServer()->broadcastMessage("§aClear Chat has been cleared by  §b$senderName");
+			return true;
 		}
 	}
 }
