@@ -6,7 +6,6 @@ description: Clear chat, based of VMPE.
 commands:
     cc:
         description: Clears chat publicly
-        permission: chatclear.clear
 permissions:
   clearchat.clear:
-    default: false
+    default: op
